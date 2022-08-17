@@ -1,0 +1,10 @@
+.setting-bar {
+  display: flex;
+  align-items: center;
+  block-size: $toolbar-height;
+  background-color: $primary-white;
+  position: absolute;
+  box-shadow: 0 4px 6px $primary-gray;
+  inline-size: 100%;
+  inset-block-start: $toolbar-height;
+}

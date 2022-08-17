@@ -1,0 +1,15 @@
+.tool-bar {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  block-size: $toolbar-height;
+  background-color: $primary-white;
+  box-shadow: 0 4px 6px $primary-gray;
+  inline-size: 100%;
+  padding: 0 2rem;
+
+  .left-bar {
+    display: flex;
+  }
+}
